@@ -7,7 +7,7 @@ import {
   AreaInput, 
   Input, 
   SubmitButton, 
-  SubmitText
+  SubmitText 
 } from '../SignIn/styles';
 
 import { AuthContext } from '../../contexts/auth';
