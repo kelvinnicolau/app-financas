@@ -28,7 +28,7 @@ function AuthProvider({ children }){
         })
         .catch(()=>{
           setUser(null);
-        })
+        }) 
 
         api.defaults.headers['Authorization'] = `Bearer ${storageUser}`;
         setUser(response.data);
