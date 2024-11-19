@@ -36,7 +36,7 @@ function AuthProvider({ children }){
 
       }
 
-      setLoading(false);
+      setLoading(false); 
 
     }
 
